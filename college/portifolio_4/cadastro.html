@@ -1,0 +1,36 @@
+<html>
+<title>Programa Zer@ Dengue</title>
+<head><h3>Cadastro - Programa Zer@ Dengue</h3></head>
+<body>
+<style>
+    body {
+        text-align: center;
+    }
+    input{
+        text-align:right;
+    }
+    p{
+        text-align:right;
+    }
+    form {
+        display: inline-block; padding: 12px 20px;
+  margin: 8px 0; box-sizing: border-box; border: none; border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+  border-radius: 4px;
+    }
+</style>
+<form action="denuncia.php" method="post">
+    <p>Nome completo: <input type="text" name="name" /></p>
+    <p>Email: <input type="email" name="email" /></p>
+    <p>Senha: <input type="password" name="password" /></p>
+    <p>RG/Orgão emissor: <input type="text" name="rg" /></p>
+    <p>CPF: <input type="text" name="cpf" /></p>
+    <p>Endereço: <input type="text" name="address" /></p>
+    <p>Telefone: <input type="text" name="telephone" /></p>
+    <p>Cidade: <input type="text" name="city" /></p>
+    <p>Bairro: <input type="text" name="neighborhood" /></p>
+    <p>Estado: <input type="text" name="state"/></p>
+    <p><input type="submit" /></p>
+</form>
+</body>
+</html>
